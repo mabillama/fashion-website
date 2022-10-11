@@ -3,13 +3,26 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
+  font-size: 24px;
 }
 
 nav {
   font-weight: 500;
 }
 
-.hero {
+nav .container-fluid {
+  margin: 0 100px;
+}
+
+nav svg {
+  margin-right: 5px;
+}
+
+#navLinks a {
+  font-size: 22px;
+}
+
+nav .hero {
   background: #e7e6e6;
 }
 
@@ -27,4 +40,15 @@ footer {
 .navbar-nav .nav-link.btn-primary {
   background-color: #000;
   color: #fff;
+}
+
+/* HERO SECTION */
+
+main .hero-section {
+  background-color: #e7e6e6;
+  border-radius: 59px;
+}
+
+main .container-xxl {
+  width: 90%;
 }
